@@ -1,0 +1,29 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:pokemon/pages/home_page.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ScreenUtilInit(
+      designSize: const Size(375, 812),
+      builder: (context) => MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'pokedex',
+        theme: ThemeData(
+          textTheme: GoogleFonts.latoTextTheme().apply(
+            bodyColor: const Color.fromARGB(255, 201, 203, 228),
+          ),
+        ),
+        home: const HomePage(),
+      ),
+    );
+  }
+}
