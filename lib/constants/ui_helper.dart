@@ -9,18 +9,19 @@ class UIHelper {
   }
 
   static final Map<String, Color> _typeColorMap = {
-    'Grass': const Color.fromARGB(204, 121, 77, 223),
-    'Fire': const Color.fromARGB(255, 187, 188, 255),
-    'Water': const Color.fromARGB(255, 148, 154, 255),
-    'Electric': const Color.fromARGB(255, 142, 144, 255),
-    'Rock': const Color.fromARGB(255, 137, 139, 255),
-    'Ground': const Color.fromARGB(255, 133, 120, 220),
-    'Bug': const Color.fromARGB(255, 113, 110, 213),
-    'Psychic': const Color.fromARGB(255, 163, 134, 236),
-    'Fighting': const Color.fromARGB(255, 130, 122, 225),
+    //! RHBA YAPINCA SAYDAM OLDUĞU İÇİN ARKASI GÖZÜKÜYORDU
+    'Grass': Colors.purple,
+    'Fire': Colors.redAccent,
+    'Water': Colors.purpleAccent,
+    'Electric': Colors.teal,
+    'Rock': Colors.green,
+    'Ground': Colors.purple,
+    'Bug': Colors.purple,
+    'Psychic': Colors.purple,
+    'Fighting': Colors.purple,
     'Ghost': Colors.deepPurple,
-    'Normal': const Color.fromARGB(204, 255, 255, 255),
-    'Poison': const Color.fromARGB(204, 255, 255, 255),
+    'Normal': Colors.purple,
+    'Poison': Colors.purple,
   };
 
   static Color getColorFromType(String type) {
