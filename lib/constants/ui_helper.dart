@@ -10,18 +10,18 @@ class UIHelper {
 
   static final Map<String, Color> _typeColorMap = {
     //! RHBA YAPINCA SAYDAM OLDUĞU İÇİN ARKASI GÖZÜKÜYORDU
-    'Grass': Colors.purple,
-    'Fire': Colors.redAccent,
-    'Water': Colors.purpleAccent,
-    'Electric': Colors.teal,
-    'Rock': Colors.green,
-    'Ground': Colors.purple,
-    'Bug': Colors.purple,
-    'Psychic': Colors.purple,
-    'Fighting': Colors.purple,
-    'Ghost': Colors.deepPurple,
-    'Normal': Colors.purple,
-    'Poison': Colors.purple,
+    'Grass': Colors.purple.shade200,
+    'Fire': Colors.redAccent.shade200,
+    'Water': Colors.purpleAccent.shade200,
+    'Electric': Colors.teal.shade200,
+    'Rock': Colors.purple.shade200,
+    'Ground': Colors.purple.shade200,
+    'Bug': Colors.purple.shade200,
+    'Psychic': Colors.purple.shade200,
+    'Fighting': Colors.purple.shade200,
+    'Ghost': Colors.deepPurple.shade200,
+    'Normal': Colors.purple.shade200,
+    'Poison': Colors.purple.shade200,
   };
 
   static Color getColorFromType(String type) {
